@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #24252a;
+    overflow:auto;
+}
+
+.body4{
+    background-color: brown;
+}
+header{
+    background-color: #24252a;
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: gray;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.buttons{
+    list-style: none;
+}
+
+.buttons li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.buttons li a{
+    transition: all 0.3s ease 0s;
+}
+
+.buttons li a:hover{
+    color: #0088a9;
+}
+
+.like{
+    float: left;
+    height: 450px;
+    margin-right: 20px;
+    align-items: center;
+    border-radius: 16px 16px;
+}
+
+.row{
+    display: flex;
+    height: 800px;
+    padding-left: 13%;
+    align-items: center;
+    letter-spacing: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    box-shadow: none;
+    color: #fff;
+    font-size: 100px;
+}
+
+.p1{
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+.Fambg{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 10px;
+}
+
+.fam{
+    padding-top: 10px;
+    font-size: 50px;
+    letter-spacing: 7px;
+    word-spacing: 6px;
+    background-color: brown;
+}
+.famp{
+    font-size: 35px;
+    padding-bottom: 10px;
+    letter-spacing: 7px;
+    word-spacing: 6px;
+    color: #fff;
+    text-align: center;
+    background-color: brown;
+}
+
+.family{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 16px 16px;
+    display: block;
+    margin: 20px auto 20px;
+
+}
+
+.skills{
+    padding-left: 90px;
+}
+
+.skill{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 10px;
+}
+
+.card{
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s; 
+}
+
+.card1{
+       background-image: url(/images/cycling.jpg);
+}
+.card2{
+    background-image: url(/images/cooking.jpg);
+}
+.card3{
+    background-image: url(/images/swimming.jfif);
+}
+.card4{
+    background-image: url(/images/videogames.jpg);
+}
+
+.card:hover{
+    transform: translate(20px);
+}
+
+h5{
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.strengths{
+    float: left;
+    flex-basis: 50%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.strength{
+    padding-left: 25%;
+    letter-spacing: 10px;   
+}
+
+.types{
+    padding-left: 25%;
+    line-height: 70px;
+}
+
+.weaknesses{
+    float: right;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.weak{
+    padding-right: 120px;
+    letter-spacing: 10px;
+}
+
+.types1{
+    padding-right: 120px;
+    line-height: 70px;
+}
