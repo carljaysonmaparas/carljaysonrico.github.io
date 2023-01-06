@@ -150,16 +150,16 @@ h1{
 }
 
 .card1{
-       background-image: url(/images/cycling.jpg);
+       background-image: url(cycling.jpg);
 }
 .card2{
-    background-image: url(/images/cooking.jpg);
+    background-image: url(cooking.jpg);
 }
 .card3{
-    background-image: url(/images/swimming.jfif);
+    background-image: url(swimming.jfif);
 }
 .card4{
-    background-image: url(/images/videogames.jpg);
+    background-image: url(videogames.jpg);
 }
 
 .card:hover{
